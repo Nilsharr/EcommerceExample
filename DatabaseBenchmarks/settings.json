@@ -1,0 +1,16 @@
+﻿{
+  "DatabaseSettings": {
+    "UsedDatabase": "mongo",
+    "Mongo": {
+      "Connection": "mongodb://localhost:27017",
+      "DatabaseName": "ecommerce_benchmark"
+    },
+    "Cassandra": {
+      "ContactPoint": "localhost",
+      "Keyspace": "ecommerce_benchmark"
+    },
+    "Postgres": {
+      "Connection": "Server=localhost;Port=5432;Database=ecommerce_benchmark;User Id=postgres;Password=root;"
+    }
+  }
+}
