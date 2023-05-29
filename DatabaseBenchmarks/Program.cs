@@ -2,7 +2,7 @@
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Reports;
 using BenchmarkDotNet.Running;
-using DatabaseBenchmarks;
+using DatabaseBenchmarks.Benchmarks;
 using Perfolizer.Horology;
 
 

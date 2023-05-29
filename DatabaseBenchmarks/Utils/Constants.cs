@@ -1,4 +1,4 @@
-﻿namespace DatabaseBenchmarks;
+﻿namespace DatabaseBenchmarks.Utils;
 
 public static class Constants
 {

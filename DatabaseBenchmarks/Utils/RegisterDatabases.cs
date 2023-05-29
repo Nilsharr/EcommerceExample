@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 using ISession = Cassandra.ISession;
 
-namespace DatabaseBenchmarks;
+namespace DatabaseBenchmarks.Utils;
 
 public static class RegisterDatabases
 {

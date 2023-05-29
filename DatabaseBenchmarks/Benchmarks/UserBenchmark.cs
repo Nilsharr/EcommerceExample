@@ -1,12 +1,13 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Engines;
 using Bogus;
+using DatabaseBenchmarks.Utils;
 using Ecommerce.Dtos;
 using Ecommerce.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Perfolizer.Mathematics.OutlierDetection;
 
-namespace DatabaseBenchmarks;
+namespace DatabaseBenchmarks.Benchmarks;
 
 [SimpleJob(RunStrategy.ColdStart, warmupCount: Constants.NumberOfWarmupIterations,
     iterationCount: Constants.NumberOfIterations)]
